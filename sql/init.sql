@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT EXISTS app_db;
 
 USE app_db;
 
-CREATE TABLE IF NOT EXISTS Clientes (
+CREATE TABLE Clientes (
     Id_Cliente INT AUTO_INCREMENT PRIMARY KEY,
     Nome VARCHAR(100),
     Endereco VARCHAR(255),
